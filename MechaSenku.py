@@ -19,7 +19,7 @@ import altair as alt         # Charting (future extensibility)
 #            GEMINI AI API ACCESS CONFIGURATION
 # ============================================================
 # API key used to authenticate with Google Gemini
-apikey = "AIzaSyC9IFd9q93cGEBHzvN0SRNtC16KjVOO7f4"
+apikey = "YOUR GEMINI API KEY"
 
 # Create a Gemini client instance using the API key
 client = genai.Client(api_key=apikey)
@@ -164,7 +164,7 @@ with tab2:
             with st.spinner("Responding"):
 
                 substitute_response = client.models.generate_content(
-                    model="gemini-2.5-flash",
+                    model="gemini-1.5-pro",
                     contents=request_txt,
                     config=types.GenerateContentConfig(
                         system_instruction=substitute_instruction
@@ -244,7 +244,7 @@ with tab1:
 
         # Call Gemini model
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-1.5-pro",
             contents=question,
             config=types.GenerateContentConfig(
                 system_instruction=chatbot_instruction
