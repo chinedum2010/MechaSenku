@@ -8,13 +8,6 @@ from google.genai import types
 # Streamlit for web app UI
 import streamlit as st
 
-# Utility imports
-from numpy import *          # Numerical utilities (currently unused but reserved)
-from time import *           # For delays like sleep()
-import pandas as pd          # Data handling (future extensibility)
-import altair as alt         # Charting (future extensibility)
-
-
 # ============================================================
 #            GEMINI AI API ACCESS CONFIGURATION
 # ============================================================
