@@ -250,16 +250,6 @@ streamlit run app.py
 5. Deploy 🎉
 
 ---
-
-## 🏆 Hackathon Ready
-
-MechaSenku is suitable for:
-
-* AI & ML hackathons
-* EdTech demos
-* Research tooling prototypes
-
----
 ---
 
 > *"This is exhilarating! Science is all about replacing the impossible with logic."* 
